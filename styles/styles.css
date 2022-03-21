@@ -79,3 +79,32 @@ footer {
   font-size: larger;
   font-weight: 250;
 }
+@media (max-width: 64rem) {
+  #h-1 {
+    font-size: 2rem;
+  }
+  img {
+    width: 35%;
+    height: 25%;
+  }
+  main {
+    width: 86%;
+    padding-left: 0.5em;
+    border-right: 0.5rem;
+  }
+  body {
+    margin: 8px 3px;
+  }
+  .h-2 {
+    margin-right: 15px;
+  }
+  a {
+    font-size: 1rem;
+    display: block;
+    padding: 1px 0.4px;
+  }
+  footer p {
+    font-size: 0.95rem;
+  }
+}
+
